@@ -7,31 +7,23 @@
 
 /* Body styling */
 body {
-    font-family: 'Verdana', sans-serif;
-    background-color: #e0f7fa;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
     color: #333;
-    line-height: 1.6;
 }
 
 /* Main content container */
 main {
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
-    padding-top: 40px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    padding-top: 20px;
 }
 
 /* Styling for the header and title section */
 h1 {
     color: #333;
     text-align: center;
-    font-size: 2.5rem;
     margin-bottom: 20px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
 }
 
 /* Input container for the forms */
@@ -39,78 +31,53 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
 }
 
 /* Form fields */
 input[type="text"], select {
     width: 100%;
-    padding: 15px;
-    margin: 12px 0;
-    border: 1px solid #007BFF;
-    border-radius: 6px;
-    font-size: 18px;
-    background-color: #f9f9f9;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
 }
 
-    input[type="text"]:focus, select:focus {
-        border-color: #007BFF;
-        box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
-    }
-
-/* Button styling */
 button {
-    padding: 14px 28px;
+    padding: 12px 24px;
     background-color: #007BFF;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 4px;
     cursor: pointer;
-    font-size: 18px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 16px;
 }
 
     button:hover {
         background-color: #0056b3;
-        transform: translateY(-2px);
-    }
-
-    button:active {
-        transform: translateY(1px);
     }
 
 /* Grid for table display */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
     table th, table td {
-        padding: 15px;
+        padding: 12px;
         text-align: left;
         border: 1px solid #ddd;
-        font-size: 16px;
     }
 
     table th {
-        background-color: #007BFF;
-        color: white;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-
-    /* Table row hover effect */
-    table tr:hover {
-        background-color: #f1f1f1;
+        background-color: #f2f2f2;
     }
 
 /* Footer */
 footer {
     text-align: center;
-    margin-top: 60px;
-    padding: 20px;
-    color: #777;
-    font-size: 14px;
+    margin-top: 40px;
+    color: #555;
 }
